@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href= "style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header>       
+    <img  src="esfera.png"  alt="Imagem">               
+    <h1 > Alura One </h1>
+ </header>
+
+    <main>
+
+        <div class="div">
+            <div class=" div2">
+               <textarea id="texto" placeholder="Digite seu texto aqui.."></textarea>  
+                <span class="teste">Digite um texto que deseja criptografar ou descriptografar!</span> 
+                <p>Atençao apenas letras minusculas e sem acento.</p>                               
+            </div>
+
+            <div id="saida-texto">           
+                <img src="fundo.png" alt="logo"> 
+                <h2>Sua mensagem aparecera aqui!</h2>             
+            </div>
+        </div>
+
+        <div class="botoes-forma">
+            <div class="botoes">
+                <button onclick="criptografar()" class=" criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class=" descriptografar">Descriptografar</button>
+            </div>            
+        </div>
+    </main>
+    <footer>
+        <ul class="rodape" >
+            <li class="redes" ><a href="https://www.linkedin.com/in/jonata-carlins/"></a><img src="lk.png " alt="Linkedin "></li>            
+            <li class="redes" ><a href="https://github.com/JonataCarlins"><img src="github.png" alt="GitHub"></li>
+            <li class="redes" ><a href="https://www.instagram.com/joncarlins/"><img src="insta.png" alt="Instagram "></li>
+            <li class="foto"><img src="goku.png" alt="goku"></li>
+            <li><h3> &copy;Desenvolvimento por Jonata Carlins</h3></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
